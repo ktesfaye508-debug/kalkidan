@@ -172,12 +172,13 @@ header {
   transition: 0.3s;
 }
 .project-grid img {
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   height: 200px;
   object-fit: cover;
   border-radius: 15px;
   border: 3px solid #ff00a0;
-  transition: transform 0.3s, box-shadow 0.3s;
+   transition: transform 0.3s, box-shadow 0.3s;
 }
 .project-grid a:hover {
   transform: translateY(-6px);
