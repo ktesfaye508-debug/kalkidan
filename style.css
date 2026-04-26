@@ -51,6 +51,7 @@
 .nav-list a:hover {
   color: rgb(88, 190, 237);
 }
+/* about */
 .about {
   max-width: 800px;
   margin: 100px auto;
@@ -80,7 +81,7 @@ body {
   background-color: #1a1a1a; /* dark black background */
   color: #f0f0f0; /* light text for contrast */
 }
-
+/* header */
 header {
   background: linear-gradient(135deg, #8e2de2, #ff0080); /* purple to pink gradient */
   padding: 40px 20px;
@@ -112,7 +113,7 @@ header {
   object-fit: cover;
   box-shadow: 0 0 20px rgba(255, 0, 160, 0.6);
 }
-
+/* skills */
 .skills {
   max-width: 800px;
   margin: 50px auto;
@@ -146,7 +147,7 @@ header {
   border-radius: 20px;
   transition: width 1s ease-in-out;
 }
-
+/* projects */
 .projects {
   max-width: 1000px;
   margin: 50px auto;
