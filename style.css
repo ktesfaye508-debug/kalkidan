@@ -37,7 +37,7 @@
   position: absolute;
   width: 0;
   height: 3px;
-  background: black;
+  background: #ff0080;
   left: 0;
   bottom: -5px;
   transition: 0.3s;
@@ -143,7 +143,6 @@ header {
 .fill {
   height: 20px;
   background: linear-gradient(90deg, #8e2de2, #ff0080); /* purple-pink gradient fill */
-  width: 0;
   border-radius: 20px;
   transition: width 1s ease-in-out;
 }
@@ -180,6 +179,10 @@ header {
   border-radius: 15px;
   border: 3px solid #ff00a0;
   transition: transform 0.3s, box-shadow 0.3s;
+}
+.project-grid a:hover {
+  transform: translateY(-6px);
+  transition: 0.3s;
 }
 
 .project-grid img:hover {
@@ -267,7 +270,6 @@ header {
 }
 html {
   scroll-behavior: smooth;
-}
 }
 .photo img {
   max-width: 100%;
