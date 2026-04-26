@@ -160,12 +160,12 @@ header {
 }
 
 .project-grid {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 20px;
   flex-wrap: wrap;
   justify-content: center;
 }
-
 .project-grid a {
   text-align: center;
   text-decoration: none;
