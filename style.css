@@ -255,17 +255,17 @@ header {
     height: 150px;
   }
   .nav-list {
-    flex-direction:column;
+    flex-direction:row;
     gap: 10px;
   }
 
   .project-grid img {
     width: 100%;
-    height:auto;
+    height:100%;
   }
 
   .social-contact {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px;
   }
   .photo img {
