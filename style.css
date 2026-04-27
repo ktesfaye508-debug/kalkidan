@@ -250,20 +250,30 @@ header {
     flex-direction: column;
     text-align: center;
   }
+  .intro .photo img {
+    width: 150px;
+    height: 150px;
+  }
+  .nav-list {
+    flex-direction:column;
+    gap: 10px;
+  }
 
   .project-grid img {
     width: 100%;
+    height:auto;
   }
 
   .social-contact {
     flex-direction: column;
     gap: 20px;
   }
-}
-.photo img {
+  .photo img {
   max-width: 100%;
   height: auto;
 }
+}
+
 
 footer {
   text-align: center;
